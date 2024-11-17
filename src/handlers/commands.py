@@ -114,7 +114,7 @@ async def private_chat_summary_with_audio(message: Message, state: FSMContext) -
         translation_text = translation['text']
         hex = test.get_audio(translation_text)
         base64 = base64_to_audio.hex_to_base64(hex)
-        base64_to_audio.base64_to_audio(base64, "output.mp3")
+        base64_to_audio.base64_to_audio(base64, "../../output.mp3")
 
         audio_path = "output.mp3"
         path = FSInputFile(audio_path)
