@@ -1,1 +1,5 @@
-# to change
+Our project is a Telegram channel offering daily summaries of local and global news, 
+with each post consisting of a news summary, an image, and a Kazakh audio version.
+
+Users can send news article links to a chatbot and get summaries with audio in Kazakh.
+Chatbot can also offers a grammar check feature to improve any user’s text.
