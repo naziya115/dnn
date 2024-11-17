@@ -129,8 +129,8 @@ async def main():
     dp.include_router(echo.router)
     dp.include_router(commands.router)
 
-    # asyncio.create_task(bbc_periodic_post())
-    # asyncio.create_task(npr_periodic_post())
+    asyncio.create_task(bbc_periodic_post())
+    asyncio.create_task(npr_periodic_post())
     await dp.start_polling(bot)
 
 
